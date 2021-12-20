@@ -47,7 +47,7 @@ if(luckyNumber == 2 && adventurous == true){
 
 if(pets < allowedPets){
   console.log('I can have more pets!');
-} else if(pets = allowedPets){
+} else if(pets === allowedPets){
   console.log('I have enough pets');
 } else {
   console.log('Oh no, I have too many pets!');
